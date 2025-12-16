@@ -1,0 +1,20 @@
+import requests
+import base64
+import sys
+
+token="eyJhbGciOiJSUzI1NiIsImprdSI6Imh0dHBzOi8vYXBpLmtyb2dlci5jb20vdjEvLndlbGwta25vd24vandrcy5qc29uIiwia2lkIjoiWjRGZDNtc2tJSDg4aXJ0N0xCNWM2Zz09IiwidHlwIjoiSldUIn0.eyJhdWQiOiJjbWFjbXVsbGVuaW5mbGF0aW9uY2FsY3VsYXRvci1iYmNibHd2biIsImV4cCI6MTc2NTkyNTE1MiwiaWF0IjoxNzY1OTIzMzQ3LCJpc3MiOiJhcGkua3JvZ2VyLmNvbSIsInN1YiI6IjVkYzUzZWNhLTQ0NzktNTY3YS1iYzI1LTIyYTg0MjFmNjM4MCIsInNjb3BlIjoicHJvZHVjdC5jb21wYWN0IiwiYXV0aEF0IjoxNzY1OTIzMzUyNzc5NTc0Mjc4LCJhenAiOiJjbWFjbXVsbGVuaW5mbGF0aW9uY2FsY3VsYXRvci1iYmNibHd2biJ9.W_p17qBS_973lhILgr8H8M_XnvPKcISX9S7FhVbd7sNJbHeUSCgQVoLxQzPd_VXGzUbEZ7XToiu4ZyYXXuRoTQledddV5onkOz2uMZhb1r-Mcl-LffEpemDCPet6GaaZAj1Qvhhu_PshdCLaTam-vBDsXyzINLSQk9g2Rwc4MBH9AX0AMyPlBVTDTzM5BP_7eed0_Jsj8M-syhyxUH-GLZj8bvmZXZiBdouZeuSkVl4h89rgYGfP7YwYdpaUvm53UmcxJe4-KCi5Y6OsjfdiADCOrb7-aAlBOALREvWarDdICKZV_OW9vnXobqT7zIMg1dtGf_XIPFtLRWXja83nog"
+
+kroger_url="https://api.kroger.com/v1/products?filter.productId=0001111041700&filter.locationId=01400441"
+headers = {
+'Authorization': f'Bearer {token}',
+'Cache-Control': 'no-cache'
+}
+
+response = requests.get(kroger_url, headers=headers)
+item_data=response.json()
+
+print(item_data)
+print(response.status_code)
+
+# outfile=open("item_data.txt", "w")
+# outfile.write(str(item_data))
