@@ -4,9 +4,12 @@ import sys
 
 # Replace with your Kroger Developer credentials
 
-def with 
-CLIENT_ID = 
-CLIENT_SECRET = 
+def get_client_credentials():
+    with open("client_credentials.txt", "r") as cred_file:
+        lines = cred_file.readlines()
+        client_id = lines[1].strip()
+        client_secret = lines[4].strip()
+    return client_id, client_secret
 
 # Kroger OAuth token endpoint
 TOKEN_URL = "https://api.kroger.com/v1/connect/oauth2/token"
@@ -46,5 +49,8 @@ def save_access_token(token, filename="kroger_token.txt"):
     
 
 if __name__ == "__main__":
-    token = get_client_credentials_token(CLIENT_ID, CLIENT_SECRET)
+    creds=get_client_credentials()
+    print(creds[0], creds[1])
+    token = get_client_credentials_token(creds[0], creds[1])
+    save_access_token(token)
     print("Access Token:", token)

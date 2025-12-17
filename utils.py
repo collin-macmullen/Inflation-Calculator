@@ -1,6 +1,7 @@
 import requests
 import base64
 import sys
+from datetime import date
 
 
 # Uses client creds to get access token from Kroger API
@@ -38,3 +39,18 @@ def get_access_token(client_id, client_secret):
 def save_access_token(token, filename="kroger_token.txt"):
     with open(filename, "w") as token_file:
         token_file.write(token)
+
+
+# Get product data from Kroger API using access token
+def get_data(token, item_id, location_id):
+    kroger_url=f"https://api.kroger.com/v1/products?filter.productId={item_id}&filter.locationId={location_id}"
+    headers = {
+    'Authorization': f'Bearer {token}',
+    'Cache-Control': 'no-cache'
+    }
+
+    response = requests.get(kroger_url, headers=headers)
+    item_data=response.json()
+
+    with open(f"item_data/{item_id}_{location_id}_{date.today()}.txt", "w") as outfile:
+        outfile.write(str(item_data))
