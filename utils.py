@@ -2,17 +2,12 @@ import requests
 import base64
 import sys
 
-# Replace with your Kroger Developer credentials
-CLIENT_ID = 
-CLIENT_SECRET = 
 
-# Kroger OAuth token endpoint
-TOKEN_URL = "https://api.kroger.com/v1/connect/oauth2/token"
-
-def get_client_credentials_token():
+# Uses client creds to get access token from Kroger API
+def get_access_token(client_id, client_secret):
     try:
         # Encode client_id:client_secret in Base64 for Basic Auth
-        credentials = f"{CLIENT_ID}:{CLIENT_SECRET}"
+        credentials = f"{client_id}:{client_secret}"
         encoded_credentials = base64.b64encode(credentials.encode()).decode()
 
         headers = {
@@ -38,6 +33,8 @@ def get_client_credentials_token():
         print("Failed to retrieve access token. Check credentials and scopes.")
         sys.exit(1)
 
-if __name__ == "__main__":
-    token = get_client_credentials_token()
-    print("Access Token:", token)
+
+# Save access token to a file for later use
+def save_access_token(token, filename="kroger_token.txt"):
+    with open(filename, "w") as token_file:
+        token_file.write(token)
