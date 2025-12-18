@@ -1,11 +1,18 @@
 import requests
 import base64
 import sys
-from datetime import date
 
+def get_client_credentials():
+    with open("kroger/client_credentials.txt", "r") as cred_file:
+        lines = cred_file.readlines()
+        client_id = lines[1].strip()
+        client_secret = lines[4].strip()
+    return client_id, client_secret
 
-# Uses client creds to get access token from Kroger API
-def get_access_token(client_id, client_secret):
+# Kroger OAuth token endpoint
+TOKEN_URL = "https://api.kroger.com/v1/connect/oauth2/token"
+
+def get_client_credentials_token(client_id, client_secret):
     try:
         # Encode client_id:client_secret in Base64 for Basic Auth
         credentials = f"{client_id}:{client_secret}"
@@ -25,6 +32,8 @@ def get_access_token(client_id, client_secret):
         response.raise_for_status()
 
         token_data = response.json()
+
+        print("Token found")
         return token_data["access_token"]
 
     except requests.exceptions.RequestException as e:
@@ -34,23 +43,18 @@ def get_access_token(client_id, client_secret):
         print("Failed to retrieve access token. Check credentials and scopes.")
         sys.exit(1)
 
-
-# Save access token to a file for later use
-def save_access_token(token, filename="kroger_token.txt"):
+def save_access_token(token, filename="kroger/token.txt"):
     with open(filename, "w") as token_file:
         token_file.write(token)
+    print("Token saved to temp file")
+    
 
+def run():
+    creds=get_client_credentials()
+    token = get_client_credentials_token(creds[0], creds[1])
+    save_access_token(token)
 
-# Get product data from Kroger API using access token
-def get_data(token, item_id, location_id):
-    kroger_url=f"https://api.kroger.com/v1/products?filter.productId={item_id}&filter.locationId={location_id}"
-    headers = {
-    'Authorization': f'Bearer {token}',
-    'Cache-Control': 'no-cache'
-    }
-
-    response = requests.get(kroger_url, headers=headers)
-    item_data=response.json()
-
-    with open(f"item_data/{item_id}_{location_id}_{date.today()}.txt", "w") as outfile:
-        outfile.write(str(item_data))
+# if __name__ == "__main__":
+#     creds=get_client_credentials()
+#     token = get_client_credentials_token(creds[0], creds[1])
+#     save_access_token(token)

@@ -1,5 +1,5 @@
 # Ignore the Kroger API token file
-/kroger_token.txt
+/kroger/token.txt
 
 #Ignore sensitive info from being committed
-/kroger_API_creds.txt
+/kroger/client_credentials.txt
