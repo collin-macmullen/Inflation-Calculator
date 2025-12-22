@@ -3,7 +3,7 @@ import sys
 import kroger.token_retrieve as token_retrieve
 import kroger.utils as utils
 
-if __name__ == "__main__":
+def run():
     print("Retrieving token...")
 
     token_retrieve.run()
@@ -23,6 +23,7 @@ if __name__ == "__main__":
         location_id=location_id.strip()
         for item_id in item_id.split(','):
             item_id=item_id.strip()
+            print(f"Retrieving data for item_id: {item_id} and location_id: {location_id}")
             utils.get_data(token, item_id, location_id)
 
     print("Done!")
