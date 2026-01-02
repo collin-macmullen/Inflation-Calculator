@@ -3,3 +3,5 @@
 
 #Ignore sensitive info from being committed
 /kroger/client_credentials.txt
+
+to_json

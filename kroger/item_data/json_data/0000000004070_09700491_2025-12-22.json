@@ -1,0 +1,191 @@
+{
+  "data": [
+    {
+      "productId": "0000000004070",
+      "upc": "0000000004070",
+      "productPageURI": "/p/celery/0000000004070?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:cmacmulleninflationc",
+      "aliasProductIds": [
+        "00733821040701",
+        "00846334000275",
+        "00791447001131",
+        "00071430049792",
+        "00605806000317",
+        "00831331004265",
+        "00846334000268",
+        "00073150121550",
+        "00707185000268",
+        "00045255246803",
+        "00740695653258",
+        "00733821040718",
+        "00856700005025",
+        "00033383653228",
+        "00060556120713",
+        "00033383653242",
+        "00817944020267",
+        "00027918040706",
+        "00033383653235",
+        "00855376007258",
+        "00000651511009",
+        "00723632401006",
+        "84297260001492",
+        "00000651517001",
+        "00173876100027",
+        "00060556120706",
+        "00831331005255",
+        "00042808112851",
+        "00733821045836",
+        "00204583000000",
+        "00060556120720",
+        "00605561207136",
+        "00033383653211",
+        "00605806028038",
+        "00033383653204",
+        "00733821045829",
+        "00071430045480",
+        "00605561207204",
+        "00027918045831",
+        "00000651511016",
+        "00738761700135",
+        "00071430047002",
+        "00000000040716",
+        "00011150999915",
+        "00000000045827",
+        "00000000045834",
+        "00030223036494",
+        "00204071000000",
+        "00071430049662",
+        "00204070000001",
+        "00072036898975",
+        "00723632401013",
+        "00858959004088",
+        "00667817000014",
+        "00073574004507",
+        "00850063113007"
+      ],
+      "aisleLocations": [],
+      "brand": "Fresh Celery",
+      "categories": [
+        "Produce",
+        "Produce",
+        "Produce"
+      ],
+      "countryOrigin": "MEXICO; UNITED STATES",
+      "description": "Celery",
+      "snapEligible": true,
+      "allergens": [
+        {
+          "levelOfContainmentName": "Undeclared",
+          "name": "Does Not Contain Declaration Obligatory Allergens"
+        }
+      ],
+      "allergensDescription": "Undeclared Does Not Contain Declaration Obligatory Allergens.",
+      "organicClaimName": "NO",
+      "receiptDescription": "CELERY",
+      "restrictions": {},
+      "images": [
+        {
+          "perspective": "front",
+          "featured": true,
+          "sizes": [
+            {
+              "size": "xlarge",
+              "url": "https://www.kroger.com/product/images/xlarge/front/0000000004070"
+            },
+            {
+              "size": "large",
+              "url": "https://www.kroger.com/product/images/large/front/0000000004070"
+            },
+            {
+              "size": "medium",
+              "url": "https://www.kroger.com/product/images/medium/front/0000000004070"
+            },
+            {
+              "size": "small",
+              "url": "https://www.kroger.com/product/images/small/front/0000000004070"
+            },
+            {
+              "size": "thumbnail",
+              "url": "https://www.kroger.com/product/images/thumbnail/front/0000000004070"
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "itemId": "0000000004070",
+          "favorite": false,
+          "fulfillment": {
+            "curbside": true,
+            "delivery": true,
+            "inStore": true,
+            "shipToHome": false
+          },
+          "price": {
+            "regular": 2.69,
+            "promo": 1.99,
+            "expirationDate": {
+              "value": "2025-12-26T04:59:59.999Z",
+              "timezone": "Z"
+            },
+            "effectiveDate": {
+              "value": "2025-12-17T12:57:11.573Z",
+              "timezone": "Z"
+            }
+          },
+          "size": "1 ct",
+          "soldBy": "UNIT"
+        }
+      ],
+      "itemInformation": {
+        "depth": "10.0",
+        "height": "3.0",
+        "width": "10.0",
+        "grossWeight": "1.0 [lb_av]",
+        "netWeight": "1.0 [lb_av]",
+        "averageWeightPerUnit": "2.0 [lb_av]"
+      },
+      "temperature": {
+        "indicator": "Refrigerated",
+        "heatSensitive": false
+      },
+      "ratingsAndReviews": {
+        "averageOverallRating": 2.25,
+        "totalReviewCount": 68
+      },
+      "nutritionInformation": [
+        {
+          "ingredientStatement": ": NutriFacts Based On USDA Food-A-Pedia.com; (Basic Blackberry ) 1 Cup, Raw",
+          "servingSize": {
+            "unitOfMeasure": {}
+          },
+          "nutrients": [
+            {
+              "code": "ENER-",
+              "description": "energy; method of determination unknown or variable",
+              "displayName": "Calories",
+              "quantity": 1,
+              "precision": {},
+              "unitOfMeasure": {
+                "code": "PTN",
+                "name": "portion"
+              }
+            }
+          ],
+          "preparationState": {
+            "code": "UNPREPARED",
+            "name": "Unprepared"
+          },
+          "servingsPerPackage": {},
+          "nutritionalRating": "99"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "start": 0,
+      "limit": 0,
+      "total": 1
+    }
+  }
+}

@@ -2,6 +2,7 @@ import requests
 import base64
 import sys
 from datetime import date
+import json
 
 
 # Uses client creds to get access token from Kroger API
@@ -54,7 +55,7 @@ def get_data(token, item_id, location_id):
 
     try:
         with open(f"kroger/item_data/{item_id}_{location_id}_{date.today()}.txt", "w") as outfile:
-            outfile.write(f'{str(item_data)}\n')
+            outfile.write(json.dumps(item_data))
     except Exception as e:
         print(f"Error writing data for item {item_id} at location {location_id}: {e}", file=sys.stderr)
 

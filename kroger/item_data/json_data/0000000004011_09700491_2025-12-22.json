@@ -1,0 +1,502 @@
+{
+  "data": [
+    {
+      "productId": "0000000004011",
+      "upc": "0000000004011",
+      "productPageURI": "/p/fresh-bunch-of-bananas-5-7-bananas/0000000004011?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:cmacmulleninflationc",
+      "aliasProductIds": [
+        "00833614000117",
+        "00817944020120",
+        "00074904400013",
+        "00749289000034",
+        "00643126041115",
+        "07404003900047",
+        "00100049040408",
+        "00717524111111",
+        "07862103083914",
+        "00042420160728",
+        "00786119300001",
+        "00074904000008",
+        "00821783140444",
+        "00821783240113",
+        "00749289000287",
+        "00749289040115",
+        "00643126040125",
+        "07503017260007",
+        "00074904022802",
+        "07861193000016",
+        "07502264920009",
+        "00749289000010",
+        "00643126010012",
+        "00733821040114",
+        "00855376007128",
+        "00717524611109",
+        "00010007490407",
+        "00204011000008",
+        "00749289000027",
+        "00643126040118",
+        "00095829815492",
+        "00000749040404",
+        "00090000088238",
+        "00900000882371",
+        "00717524111128",
+        "00074904040110",
+        "01006431260401",
+        "01361599000000",
+        "03651980000008"
+      ],
+      "aisleLocations": [],
+      "brand": "Fresh Bananas",
+      "categories": [
+        "Produce",
+        "Produce"
+      ],
+      "countryOrigin": "COLOMBIA; COSTA RICA; ECUADOR; GUATEMALA",
+      "description": "Fresh Bunch of Bananas – 5-7 Bananas",
+      "snapEligible": true,
+      "allergens": [
+        {
+          "levelOfContainmentName": "Free from",
+          "name": "Does Not Contain Declaration Obligatory Allergens"
+        }
+      ],
+      "allergensDescription": "Free from Does Not Contain Declaration Obligatory Allergens.",
+      "nonGmoClaimName": "NO NON-GMO CLAIM",
+      "organicClaimName": "NO",
+      "receiptDescription": "BANANAS",
+      "restrictions": {},
+      "images": [
+        {
+          "perspective": "right",
+          "sizes": [
+            {
+              "size": "xlarge",
+              "url": "https://www.kroger.com/product/images/xlarge/right/0000000004011"
+            },
+            {
+              "size": "large",
+              "url": "https://www.kroger.com/product/images/large/right/0000000004011"
+            },
+            {
+              "size": "medium",
+              "url": "https://www.kroger.com/product/images/medium/right/0000000004011"
+            },
+            {
+              "size": "small",
+              "url": "https://www.kroger.com/product/images/small/right/0000000004011"
+            },
+            {
+              "size": "thumbnail",
+              "url": "https://www.kroger.com/product/images/thumbnail/right/0000000004011"
+            }
+          ]
+        },
+        {
+          "perspective": "back",
+          "sizes": [
+            {
+              "size": "xlarge",
+              "url": "https://www.kroger.com/product/images/xlarge/back/0000000004011"
+            },
+            {
+              "size": "large",
+              "url": "https://www.kroger.com/product/images/large/back/0000000004011"
+            },
+            {
+              "size": "medium",
+              "url": "https://www.kroger.com/product/images/medium/back/0000000004011"
+            },
+            {
+              "size": "small",
+              "url": "https://www.kroger.com/product/images/small/back/0000000004011"
+            },
+            {
+              "size": "thumbnail",
+              "url": "https://www.kroger.com/product/images/thumbnail/back/0000000004011"
+            }
+          ]
+        },
+        {
+          "perspective": "front",
+          "featured": true,
+          "sizes": [
+            {
+              "size": "xlarge",
+              "url": "https://www.kroger.com/product/images/xlarge/front/0000000004011"
+            },
+            {
+              "size": "large",
+              "url": "https://www.kroger.com/product/images/large/front/0000000004011"
+            },
+            {
+              "size": "medium",
+              "url": "https://www.kroger.com/product/images/medium/front/0000000004011"
+            },
+            {
+              "size": "small",
+              "url": "https://www.kroger.com/product/images/small/front/0000000004011"
+            },
+            {
+              "size": "thumbnail",
+              "url": "https://www.kroger.com/product/images/thumbnail/front/0000000004011"
+            }
+          ]
+        },
+        {
+          "perspective": "bottom",
+          "sizes": [
+            {
+              "size": "xlarge",
+              "url": "https://www.kroger.com/product/images/xlarge/bottom/0000000004011"
+            },
+            {
+              "size": "large",
+              "url": "https://www.kroger.com/product/images/large/bottom/0000000004011"
+            },
+            {
+              "size": "medium",
+              "url": "https://www.kroger.com/product/images/medium/bottom/0000000004011"
+            },
+            {
+              "size": "small",
+              "url": "https://www.kroger.com/product/images/small/bottom/0000000004011"
+            },
+            {
+              "size": "thumbnail",
+              "url": "https://www.kroger.com/product/images/thumbnail/bottom/0000000004011"
+            }
+          ]
+        },
+        {
+          "perspective": "left",
+          "sizes": [
+            {
+              "size": "xlarge",
+              "url": "https://www.kroger.com/product/images/xlarge/left/0000000004011"
+            },
+            {
+              "size": "large",
+              "url": "https://www.kroger.com/product/images/large/left/0000000004011"
+            },
+            {
+              "size": "medium",
+              "url": "https://www.kroger.com/product/images/medium/left/0000000004011"
+            },
+            {
+              "size": "small",
+              "url": "https://www.kroger.com/product/images/small/left/0000000004011"
+            },
+            {
+              "size": "thumbnail",
+              "url": "https://www.kroger.com/product/images/thumbnail/left/0000000004011"
+            }
+          ]
+        },
+        {
+          "perspective": "top",
+          "sizes": [
+            {
+              "size": "xlarge",
+              "url": "https://www.kroger.com/product/images/xlarge/top/0000000004011"
+            },
+            {
+              "size": "large",
+              "url": "https://www.kroger.com/product/images/large/top/0000000004011"
+            },
+            {
+              "size": "medium",
+              "url": "https://www.kroger.com/product/images/medium/top/0000000004011"
+            },
+            {
+              "size": "small",
+              "url": "https://www.kroger.com/product/images/small/top/0000000004011"
+            },
+            {
+              "size": "thumbnail",
+              "url": "https://www.kroger.com/product/images/thumbnail/top/0000000004011"
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "itemId": "0000000004011",
+          "favorite": false,
+          "fulfillment": {
+            "curbside": true,
+            "delivery": true,
+            "inStore": true,
+            "shipToHome": false
+          },
+          "price": {
+            "regular": 0.55,
+            "regularPerUnitEstimate": 0.55,
+            "expirationDate": {
+              "value": "9999-12-31T00:00:00Z",
+              "timezone": "Z"
+            },
+            "effectiveDate": {
+              "value": "2025-12-17T12:35:52.997Z",
+              "timezone": "Z"
+            }
+          },
+          "size": "1 lb",
+          "soldBy": "WEIGHT"
+        }
+      ],
+      "itemInformation": {
+        "depth": "5.7",
+        "height": "7.5",
+        "width": "10.5",
+        "grossWeight": "3.0 [lb_av]",
+        "netWeight": "0.38 [lb_av]",
+        "averageWeightPerUnit": "2.1 [lb_av]"
+      },
+      "temperature": {
+        "indicator": "Ambient",
+        "heatSensitive": false
+      },
+      "ratingsAndReviews": {
+        "averageOverallRating": 1.94,
+        "totalReviewCount": 1397
+      },
+      "nutritionInformation": [
+        {
+          "ingredientStatement": "banana",
+          "servingSize": {
+            "quantity": 140,
+            "unitOfMeasure": {
+              "abbreviation": "g",
+              "code": "GRM",
+              "name": "Gram"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NA",
+              "description": "sodium",
+              "displayName": "Sodium",
+              "precision": {},
+              "unitOfMeasure": {
+                "code": "MGM",
+                "name": "Milligram"
+              }
+            },
+            {
+              "code": "PRO-",
+              "description": "protein, total; method of determination unknown or variable",
+              "displayName": "Protein",
+              "quantity": 2,
+              "precision": {},
+              "unitOfMeasure": {
+                "code": "GRM",
+                "name": "Gram"
+              }
+            },
+            {
+              "code": "FAT",
+              "description": "fat, total",
+              "displayName": "Total Fat",
+              "precision": {},
+              "unitOfMeasure": {
+                "code": "GRM",
+                "name": "Gram"
+              }
+            },
+            {
+              "code": "SUGAR",
+              "description": "sugars, total",
+              "displayName": "Sugar",
+              "quantity": 17,
+              "precision": {},
+              "unitOfMeasure": {
+                "code": "GRM",
+                "name": "Gram"
+              }
+            },
+            {
+              "code": "P",
+              "description": "phosphorus",
+              "displayName": "Phosphorus",
+              "percentDailyIntake": 2.5,
+              "quantity": 30,
+              "precision": {},
+              "unitOfMeasure": {
+                "code": "MGM",
+                "name": "Milligram"
+              }
+            },
+            {
+              "code": "FE",
+              "description": "iron, total",
+              "displayName": "Iron",
+              "percentDailyIntake": 2,
+              "quantity": 0.4,
+              "precision": {},
+              "unitOfMeasure": {
+                "code": "MGM",
+                "name": "Milligram"
+              }
+            },
+            {
+              "code": "ENER-",
+              "description": "energy; method of determination unknown or variable",
+              "displayName": "Calories",
+              "quantity": 120,
+              "precision": {},
+              "unitOfMeasure": {
+                "code": "E14",
+                "name": "Kilocalorie (international table)"
+              }
+            },
+            {
+              "code": "K",
+              "description": "potassium",
+              "displayName": "Potassium",
+              "percentDailyIntake": 10.7,
+              "quantity": 500,
+              "precision": {},
+              "unitOfMeasure": {
+                "code": "MGM",
+                "name": "Milligram"
+              }
+            },
+            {
+              "code": "CA",
+              "description": "calcium",
+              "displayName": "Calcium",
+              "percentDailyIntake": 0.5,
+              "quantity": 10,
+              "precision": {},
+              "unitOfMeasure": {
+                "code": "MGM",
+                "name": "Milligram"
+              }
+            },
+            {
+              "code": "CHO-",
+              "description": "carbohydrate, total; method of determination unknown or variable",
+              "displayName": "Total Carbohydrate",
+              "quantity": 32,
+              "precision": {},
+              "unitOfMeasure": {
+                "code": "GRM",
+                "name": "Gram"
+              }
+            },
+            {
+              "code": "FATRN",
+              "description": "fatty acids, total trans",
+              "displayName": "Trans Fat",
+              "precision": {},
+              "unitOfMeasure": {
+                "code": "GRM",
+                "name": "Gram"
+              }
+            },
+            {
+              "code": "FASAT",
+              "description": "fatty acids, total saturated",
+              "displayName": "Saturated Fat",
+              "precision": {},
+              "unitOfMeasure": {
+                "code": "GRM",
+                "name": "Gram"
+              }
+            },
+            {
+              "code": "VITC",
+              "description": "vitamin C",
+              "displayName": "Vitamin C",
+              "percentDailyIntake": 20.3,
+              "quantity": 12,
+              "precision": {},
+              "unitOfMeasure": {
+                "code": "MGM",
+                "name": "Milligram"
+              }
+            },
+            {
+              "code": "FIBTSW",
+              "description": "fibre, total dietary; Wenlock modification",
+              "displayName": "Dietary Fiber",
+              "percentDailyIntake": 13,
+              "quantity": 4,
+              "precision": {},
+              "unitOfMeasure": {
+                "code": "GRM",
+                "name": "Gram"
+              }
+            },
+            {
+              "code": "MG",
+              "description": "magnesium",
+              "displayName": "Magnesium",
+              "percentDailyIntake": 9,
+              "quantity": 40,
+              "precision": {},
+              "unitOfMeasure": {
+                "code": "MGM",
+                "name": "Milligram"
+              }
+            },
+            {
+              "code": "VITD",
+              "description": "vitamin D; calculated by summation of ergocalciferol and cholecalciferol",
+              "displayName": "Vitamin D",
+              "precision": {},
+              "unitOfMeasure": {
+                "code": "MC",
+                "name": "Microgram"
+              }
+            },
+            {
+              "code": "SUGAD",
+              "description": "sugar, added",
+              "displayName": "Added Sugar",
+              "precision": {},
+              "unitOfMeasure": {
+                "code": "GRM",
+                "name": "Gram"
+              }
+            },
+            {
+              "code": "CHOL-",
+              "description": "cholesterol; method of determination unknown or variable",
+              "displayName": "Cholesterol",
+              "precision": {},
+              "unitOfMeasure": {
+                "code": "MGM",
+                "name": "Milligram"
+              }
+            },
+            {
+              "code": "VITA",
+              "description": "vitamin A; calculated by summation of the vitamin A activities of retinol and the active carotenoids",
+              "displayName": "Vitamin A",
+              "percentDailyIntake": 0.5,
+              "precision": {},
+              "unitOfMeasure": {
+                "code": "MC",
+                "name": "Microgram"
+              }
+            }
+          ],
+          "preparationState": {
+            "code": "UNSPECIFIED",
+            "name": "Unspecified"
+          },
+          "servingsPerPackage": {},
+          "nutritionalRating": "87"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "start": 0,
+      "limit": 0,
+      "total": 1
+    }
+  }
+}

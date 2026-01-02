@@ -1,0 +1,264 @@
+{
+    "data": [
+        {
+            "productId": "0020895500000",
+            "upc": "0020895500000",
+            "productPageURI": "/p/harris-teeter-boneless-chicken-breast-value-pack/0020895500000?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:cmacmulleninflationc",
+            "aliasProductIds": [
+                "00900000816338"
+            ],
+            "aisleLocations": [],
+            "brand": "Harris Teeter",
+            "categories": [
+                "Meat & Seafood"
+            ],
+            "countryOrigin": "UNITED STATES",
+            "description": "Harris Teeter Boneless Chicken Breast Value Pack",
+            "snapEligible": true,
+            "manufacturerDeclarations": [
+                "Dairy Free",
+                "Egg Free",
+                "Fish Free",
+                "Free from Peanuts",
+                "Tree Nuts Free",
+                "Soy Free"
+            ],
+            "allergens": [
+                {
+                    "levelOfContainmentName": "Free from",
+                    "name": "Fish and their derivates"
+                },
+                {
+                    "levelOfContainmentName": "Free from",
+                    "name": "Wheat and Their Derivatives"
+                },
+                {
+                    "levelOfContainmentName": "Free from",
+                    "name": "Milk and its derivates"
+                },
+                {
+                    "levelOfContainmentName": "Free from",
+                    "name": "Eggs and their derivates"
+                },
+                {
+                    "levelOfContainmentName": "Free from",
+                    "name": "Tree Nuts and Their Derivatives"
+                },
+                {
+                    "levelOfContainmentName": "Free from",
+                    "name": "Soybean and its Derivatives"
+                },
+                {
+                    "levelOfContainmentName": "Free from",
+                    "name": "Peanuts and their derivates"
+                },
+                {
+                    "levelOfContainmentName": "Free from",
+                    "name": "Molluscs and their derivates"
+                }
+            ],
+            "allergensDescription": "Free from Wheat and Their Derivatives,Eggs and their derivates,Fish and their derivates,Molluscs and their derivates,Soybean and its Derivatives,Milk and its derivates,Tree Nuts and Their Derivatives,Peanuts and their derivates.",
+            "organicClaimName": "NO",
+            "receiptDescription": "CHICKEN BL BRST",
+            "restrictions": {},
+            "images": [
+                {
+                    "perspective": "back",
+                    "sizes": [
+                        {
+                            "size": "xlarge",
+                            "url": "https://www.kroger.com/product/images/xlarge/back/0020895500000"
+                        },
+                        {
+                            "size": "large",
+                            "url": "https://www.kroger.com/product/images/large/back/0020895500000"
+                        },
+                        {
+                            "size": "medium",
+                            "url": "https://www.kroger.com/product/images/medium/back/0020895500000"
+                        },
+                        {
+                            "size": "small",
+                            "url": "https://www.kroger.com/product/images/small/back/0020895500000"
+                        },
+                        {
+                            "size": "thumbnail",
+                            "url": "https://www.kroger.com/product/images/thumbnail/back/0020895500000"
+                        }
+                    ]
+                },
+                {
+                    "perspective": "front",
+                    "featured": true,
+                    "sizes": [
+                        {
+                            "size": "xlarge",
+                            "url": "https://www.kroger.com/product/images/xlarge/front/0020895500000"
+                        },
+                        {
+                            "size": "large",
+                            "url": "https://www.kroger.com/product/images/large/front/0020895500000"
+                        },
+                        {
+                            "size": "medium",
+                            "url": "https://www.kroger.com/product/images/medium/front/0020895500000"
+                        },
+                        {
+                            "size": "small",
+                            "url": "https://www.kroger.com/product/images/small/front/0020895500000"
+                        },
+                        {
+                            "size": "thumbnail",
+                            "url": "https://www.kroger.com/product/images/thumbnail/front/0020895500000"
+                        }
+                    ]
+                }
+            ],
+            "items": [
+                {
+                    "itemId": "0020895500000",
+                    "favorite": false,
+                    "fulfillment": {
+                        "curbside": true,
+                        "delivery": true,
+                        "inStore": true,
+                        "shipToHome": false
+                    },
+                    "price": {
+                        "regular": 3.99,
+                        "promo": 2.99,
+                        "regularPerUnitEstimate": 3.99,
+                        "promoPerUnitEstimate": 2.99,
+                        "expirationDate": {
+                            "value": "2025-12-31T04:59:59.999Z",
+                            "timezone": "Z"
+                        },
+                        "effectiveDate": {
+                            "value": "2025-12-10T06:05:03.292Z",
+                            "timezone": "Z"
+                        }
+                    },
+                    "size": "1 lb",
+                    "soldBy": "WEIGHT"
+                }
+            ],
+            "itemInformation": {
+                "depth": "7.65",
+                "height": "2.35",
+                "width": "14.65",
+                "grossWeight": "4.9 [lb_av]",
+                "netWeight": "3.96 [lb_av]",
+                "averageWeightPerUnit": "4.95 [lb_av]"
+            },
+            "temperature": {
+                "indicator": "Refrigerated",
+                "heatSensitive": false
+            },
+            "ratingsAndReviews": {
+                "averageOverallRating": 4,
+                "totalReviewCount": 3
+            },
+            "nutritionInformation": [
+                {
+                    "ingredientStatement": "Chicken",
+                    "dailyValueIntakeReference": "based on a 2000 calorie diet",
+                    "servingSize": {
+                        "quantity": 4,
+                        "unitOfMeasure": {
+                            "abbreviation": "oz",
+                            "code": "ONZ",
+                            "name": "Ounce"
+                        }
+                    },
+                    "nutrients": [
+                        {
+                            "code": "CHO-",
+                            "description": "carbohydrate, total; method of determination unknown or variable",
+                            "displayName": "Total Carbohydrate",
+                            "precision": {
+                                "code": "ABOUT",
+                                "name": "About"
+                            },
+                            "unitOfMeasure": {
+                                "code": "GRM",
+                                "name": "Gram"
+                            }
+                        },
+                        {
+                            "code": "FAT",
+                            "description": "fat, total",
+                            "displayName": "Total Fat",
+                            "percentDailyIntake": 2,
+                            "quantity": 1.5,
+                            "precision": {
+                                "code": "ABOUT",
+                                "name": "About"
+                            },
+                            "unitOfMeasure": {
+                                "code": "GRM",
+                                "name": "Gram"
+                            }
+                        },
+                        {
+                            "code": "PRO-",
+                            "description": "protein, total; method of determination unknown or variable",
+                            "displayName": "Protein",
+                            "percentDailyIntake": 52,
+                            "quantity": 26,
+                            "precision": {
+                                "code": "ABOUT",
+                                "name": "About"
+                            },
+                            "unitOfMeasure": {
+                                "code": "GRM",
+                                "name": "Gram"
+                            }
+                        },
+                        {
+                            "code": "ENER-",
+                            "description": "energy; method of determination unknown or variable",
+                            "displayName": "Calories",
+                            "quantity": 120,
+                            "precision": {
+                                "code": "ABOUT",
+                                "name": "About"
+                            },
+                            "unitOfMeasure": {
+                                "code": "E14",
+                                "name": "Kilocalorie (international table)"
+                            }
+                        },
+                        {
+                            "code": "NA",
+                            "description": "sodium",
+                            "displayName": "Sodium",
+                            "percentDailyIntake": 4,
+                            "quantity": 75,
+                            "precision": {
+                                "code": "ABOUT",
+                                "name": "About"
+                            },
+                            "unitOfMeasure": {
+                                "code": "MGM",
+                                "name": "Milligram"
+                            }
+                        }
+                    ],
+                    "preparationState": {
+                        "code": "UNPREPARED",
+                        "name": "Unprepared"
+                    },
+                    "servingsPerPackage": {},
+                    "nutritionalRating": "61"
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "start": 0,
+            "limit": 0,
+            "total": 1
+        }
+    }
+}
