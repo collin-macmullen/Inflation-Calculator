@@ -54,7 +54,7 @@ def get_data(token, item_id, location_id):
     item_data=response.json()
 
     try:
-        with open(f"kroger/item_data/{item_id}_{location_id}_{date.today()}.txt", "w") as outfile:
+        with open(f"kroger/item_data/json_data/{date.today()}/{item_id}_{location_id}_{date.today()}.json", "w") as outfile:
             outfile.write(json.dumps(item_data))
     except Exception as e:
         print(f"Error writing data for item {item_id} at location {location_id}: {e}", file=sys.stderr)
