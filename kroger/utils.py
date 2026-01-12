@@ -3,6 +3,7 @@ import base64
 import sys
 from datetime import date
 import json
+from pathlib import Path
 
 
 # Uses client creds to get access token from Kroger API
@@ -42,6 +43,13 @@ def save_access_token(token, filename="kroger_token.txt"):
         token_file.write(token)
 
 
+def create_folder_if_not_exists(folder_path):
+    try:
+        Path(folder_path).mkdir(parents=True, exist_ok=True)
+        print(f"Folder ready at: {folder_path}")
+    except OSError as e:
+        print(f"Error creating folder '{folder_path}': {e}")
+
 # Get product data from Kroger API using access token
 def get_data(token, item_id, location_id):
     kroger_url=f"https://api.kroger.com/v1/products?filter.productId={item_id}&filter.locationId={location_id}"
@@ -54,6 +62,7 @@ def get_data(token, item_id, location_id):
     item_data=response.json()
 
     try:
+        create_folder_if_not_exists(f"kroger/item_data/json_data/{date.today()}")
         with open(f"kroger/item_data/json_data/{date.today()}/{item_id}_{location_id}_{date.today()}.json", "w") as outfile:
             outfile.write(json.dumps(item_data))
     except Exception as e:
